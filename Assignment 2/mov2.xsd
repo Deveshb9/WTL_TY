@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Movies">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" ref="Movie"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="Movie">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="title" type="xsd:string" />
+<xsd:element name="category" type="xsd:string" />
+<xsd:element name="director" type="xsd:string" />
+<xsd:element name="writer" type="xsd:string" />
+<xsd:element name="verdict" type="xsd:string" />
+<xsd:element name="released" type="xsd:positiveInteger" />
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

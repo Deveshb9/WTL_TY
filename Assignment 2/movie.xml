@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--<!DOCTYPE Movies SYSTEM "moviee.dtd">-->
+<!--<Movies xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="movieee.xsd">-->
+<?xml-stylesheet type="text/xsl" href="mov1.xslt"?>
+<Movies>
+	<Movie>
+			<title>Full-metal Alkamist Botherhood</title>
+			<category>Anime</category>
+			<director>Makoto Sani</director>
+			<writer>Makoto Shinkai</writer>
+			<verdict>Blockbuster</verdict>
+			<released>1985</released>
+	</Movie>
+	<Movie>
+			<title>The Invdivisble</title>
+			<category>Hollywood</category>
+			<director>Jordon</director>
+			<writer>Oscary Will</writer>
+			<verdict>Hit</verdict>
+			<released>2017</released>
+	</Movie>
+</Movies>
+	

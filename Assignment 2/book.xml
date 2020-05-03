@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE books SYSTEM "book.dtd">
+<books>
+	<book>
+		<title>To Kill a Mockingbird</title>
+		<category>Classic Fiction</category>
+		<author>Harper Lee</author>
+		<publisher>RHUK</publisher>
+		<year>2010</year>
+		<isbn>978-0099549482</isbn>
+	</book>
+	<book>
+		<title>The Complete Novels of Sherlock Holmes</title>
+		<category>Crime,Thriller,Mystery</category>
+		<author>Arthur Conan Doyle</author>
+		<publisher>Fingerprint! Publishing</publisher>
+		<year>2017</year>
+		<isbn>978-8175994317</isbn>
+	</book>
+</books>

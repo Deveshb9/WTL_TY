@@ -1,0 +1,50 @@
+<html>
+<head>
+<Title>Testing</title>
+<script src="myjs.js"></script>
+</head>
+<body> 
+<center>
+    <button onclick="getElementById('demo').innerHTML =Date()">Show time</button>
+    <p id="demo"></p>
+    <img src="pick.png" height="200" width="200" id="imp" onclick="changeImage()" />
+</center>
+ <font size=20>Select Text Color &nbsp; &nbsp; &nbsp;</font>
+
+ <select style="font-size:20px; width: 120px; height: 25px;"
+onChange="setBodyAttr('text',this.options[this.selectedIndex].value);">
+
+ <option value="black">Black
+ <option value="red">Red
+ <option value="Green">Green
+ <option value="purple">Purple
+ <option value="blue">Blue
+ <option value="brown">Brown
+ </select><br>
+ 
+<font size=20>Select Background Color &nbsp; &nbsp; &nbsp;</font>
+
+ <select style="font-size:20px; width: 120px; height: 25px;"
+onChange="setBodyAttr('bgColor',this.options[this.selectedIndex].value);">
+
+ <option value="red">Red
+ <option value="Green">Green
+ <option value="purple">Purple
+ <option value="blue">Blue
+ <option value="brown">Brown
+ <option value="white">White
+ <option value="lightgrey">Gray
+ </select>
+ 
+<br>
+<br><br>
+ <center>
+ <input type="button" style="font-size:20px; width: 120px; height: 120px;"
+value="Flip a Coin" onclick="coinFlip()" />
+</center>
+</form>
+ </div>
+</body>
+</html>
+    </body>
+</html> 

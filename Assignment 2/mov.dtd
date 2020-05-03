@@ -1,0 +1,8 @@
+<!ELEMENT Movies (Movie*)>
+<!ELEMENT Movie (title,category,director,writer,verdict,released)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT verdict (#PCDATA)>
+<!ELEMENT released (#PCDATA)>

@@ -1,0 +1,59 @@
+<HTML>
+<Head>
+	<Title>Student Registration Form</Title>
+	<script src="form.js">
+	</script>
+</Head>
+<Body >
+	<center><h2>Student Registration Form</h2></center>
+	<br>
+	<br>
+	<Form action ="b.html" name="Myform" onsubmit="return(validate())">
+	<center><table border="1" style="border:2px solid DodgerBlue;" >
+		<tr>
+			<td><b>Name</b></td>
+			<td><input type="text" name="Name"></td>
+		</tr>
+		<tr>
+			<td><b>Email ID</b></td>
+			<td><input type="text" name="Email"></td>
+		</tr>
+		<tr>
+			<td><b>Gender<b></td>
+			<td><input type="radio" name="Gender">Male<br><input type="radio" name="Gender">Female</td>
+		</tr>
+		<tr>
+			<td><b>Permanent Address</b></td>
+			<td><input type="text" name="Permanent" size="50"></td>
+		</tr>
+		<tr>
+			<td><b>Correspondence Address</b></td>
+			<td><input type="text" name="Correspondence" size="50"></td>
+		</tr>
+		<tr>
+			<td><b>Country</b></td>
+			<td><select name="Country">
+			<option value="-1" selected>[Choose Yours]</option>
+			<option value="1">USA</option>
+			<option value="2">India</option>
+			<option value="3">Canada</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><b>Mobile No.</b></td>
+			<td><input type="text" name="Mobile" Maxlength="9"></td>
+		</tr>
+		<tr>
+			<td><b>DOB</b></td>
+			<td><input type="Date" name="DOB"></td>
+		</tr>
+		<tr>
+			<td><b>Zipcode</b></td>
+			<td><input type="text" name="Zipcode" Maxlength="6"></td>
+		</tr>
+</center>
+	<td colspan="2"><center><input type="submit" name="Submit" ></center></td>
+	</table>
+</Body>
+</HTML>
+	
